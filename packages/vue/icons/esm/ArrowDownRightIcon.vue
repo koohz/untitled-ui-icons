@@ -1,0 +1,6 @@
+<template>
+<svg width="24" height="24" fill="none" viewBox="0 0 24 24">
+  <path fill="currentColor" fill-opacity="0.01" d="M17 7V17H7"/>
+  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7L17 17M17 17V7M17 17H7"/>
+</svg>
+</template>

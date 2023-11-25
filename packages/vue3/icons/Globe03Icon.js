@@ -1,0 +1,33 @@
+const { createElementVNode: _createElementVNode, openBlock: _openBlock, createElementBlock: _createElementBlock } = require("vue")
+
+module.exports = function render(_ctx, _cache) {
+  return (_openBlock(), _createElementBlock("svg", {
+    width: "24",
+    height: "24",
+    fill: "none",
+    viewBox: "0 0 24 24"
+  }, [
+    _createElementVNode("path", {
+      fill: "currentColor",
+      "fill-opacity": "0.01",
+      d: "M12 2C14.7 3.8 15.5305 7.66283 15.6 11C15.5305 14.3372 14.7 18.2 12 20C9.3 18.2 8.46952 14.3372 8.4 11C8.46952 7.66283 9.3 3.8 12 2Z"
+    }),
+    _createElementVNode("path", {
+      fill: "currentColor",
+      "fill-opacity": "0.01",
+      d: "M12 20C16.9706 20 21 15.9706 21 11C21 6.02944 16.9706 2 12 2C7.02944 2 3 6.02944 3 11C3 15.9706 7.02944 20 12 20Z"
+    }),
+    _createElementVNode("path", {
+      fill: "currentColor",
+      "fill-opacity": "0.01",
+      d: "M21 11C19.2 13.7 15.3372 14.5305 12 14.6C8.66283 14.5305 4.8 13.7 3 11C4.8 8.3 8.66283 7.46952 12 7.4C15.3372 7.46952 19.2 8.3 21 11Z"
+    }),
+    _createElementVNode("path", {
+      stroke: "currentColor",
+      "stroke-linecap": "round",
+      "stroke-linejoin": "round",
+      "stroke-width": "2",
+      d: "M12 2C14.7 3.8 15.5305 7.66283 15.6 11C15.5305 14.3372 14.7 18.2 12 20M12 2C9.3 3.8 8.46952 7.66283 8.4 11C8.46952 14.3372 9.3 18.2 12 20M12 2C7.02944 2 3 6.02944 3 11M12 2C16.9706 2 21 6.02944 21 11M12 20C16.9706 20 21 15.9706 21 11M12 20C7.02944 20 3 15.9706 3 11M21 11C19.2 13.7 15.3372 14.5305 12 14.6C8.66283 14.5305 4.8 13.7 3 11M21 11C19.2 8.3 15.3372 7.46952 12 7.4C8.66283 7.46952 4.8 8.3 3 11"
+    })
+  ]))
+}
